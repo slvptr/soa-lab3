@@ -17,7 +17,7 @@ import java.security.cert.X509Certificate;
 
 @Stateless
 public class GroupService {
-    private final String BASE_URL = "https://localhost:8080/api/v1/groups/";
+    private final String BASE_URL = "https://localhost:8081/api/v1/groups/";
     private final GroupAPI groupAPI;
 
     public GroupService() throws Exception {
